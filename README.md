@@ -86,5 +86,5 @@ npm test -- --coverage
 - Add Swagger/OpenAPI documentation
 
 ## License
-MIT
+This project is licensed under the [MIT License](./.license).
 
