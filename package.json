@@ -1,0 +1,41 @@
+{
+  "name": "virtual-events-backend",
+  "version": "0.1.0",
+  "description": "Skeleton for Virtual Event Management backend (Node + Express + MongoDB)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --runInBand",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "events",
+    "skeleton"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.4.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^8.15.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "supertest": "^6.3.3"
+  }
+}
